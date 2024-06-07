@@ -1,3 +1,6 @@
+// Spinner animation.
+// Every callback in each setTimeout prints a 'frame' of a spinning cursor
+
 setTimeout(() => {
   process.stdout.write("\r|    ");
 }, 100);
